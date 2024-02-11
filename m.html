@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+        <style>
+          .A{
+    /*color de border*/
+    border: 4px rgb(32, 32, 32);
+    width: 300px;
+    align-items: center;
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*color de padding de berder*/
+    background-color: rgb(247, 228, 228);
+}
+td{
+    border: #4C4B16  1px solid;
+}
+.B{
+    display: flex;
+    margin-left: 35px;
+}
+
+:root{
+---pink:#E7B10A;
+}
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none; border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+}
+
+header .logo{
+font-size: 3rem;
+color: rgb(27, 5, 46);
+font-weight: bolder;
+}    
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 6rem;
+overflow-x: hidden;
+}
+@media (max-width:768px){
+
+header .fa-bars{
+display: block;
+}
+
+header .navbar{
+position: absolute;
+top: 100%; left: 0; right: 0;
+background: #07df73;
+border-top: .1res solid rgba(0,0,0,.1);
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+
+header #toggler:checked ~ .navbar{
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header .navbar a{
+   margin: 1.5rem; 
+   padding: 1.5rem;
+   background: blue;
+   border: .1rem solid rgba(0,0,0,.1);
+   display: block; 
+}
+}
+
+p{
+margin-left: 50px;
+
+font: 2em  xx-large;
+font-style:unset;
+box-sizing: border-box;
+}
+img{
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
+}
+h2{
+/*pour le titre*/
+color: rgb(63, 74, 168);
+margin-left:40px;
+margin-top: 4px;
+}
+h5{
+color: rgb(59, 59, 58);
+margin-left: 45px;
+margin-top: 5px;
+font-size:small;
+}
+h3{
+margin-top: 5px;
+margin-left: 35%;
+color: rgba(33, 116, 224, 0.712);
+}
+        </style>
+    </head>
+    <body>
+
+        <div class="B" >
+            <div class="A">
+                 <img src="m1.png">
+                 <h2>One Piece - Édition originale - Tome 101</h2>
+                 <h5>Eiichiro Oda</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m2.png">
+                 <h2>Fairy Tail T01</h2>
+                 <h5> Hiro Mashima</h5>
+                 <h3>Prix:300 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m3.png">
+                 <h2>Dragon Ball - Édition originale - Tome 01</h2>
+                 <h5>Akira Toriyama</h5>
+                 <h3>Prix:350 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m4.png">
+                 <h2>My hero academia t1</h2>
+                 <h5>Kohei Horikoshi</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        <div class="B">
+            <div class="A">
+                 <img src="m5.png">
+                 <h2>Assassination classroom - Tome 1</p>
+                 <h5>Yusei Matsui</h5>
+                 <h3>Prix:249 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m6.jpg">
+                 <h2>Death Note - Tome 1</h2>
+                  <h5>Tsugumi Ohba</h5>
+                 <h3>Prix:150 MAD</h3> 
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m7.jpg">
+                 <h2>Dr. Stone - Tome 01</h2>
+                  <h5> Riichiro Inagaki</h5>
+                 <h3>Prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m8.jpg">
+                 <h2>The Promised Neverland T01</h2>
+                  <h5>Kaiu Shirai</hh3>
+                 <h3>Prix:159 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+<h2><p><b></b></p></h2>
+
+        <div class="B">
+            <div class="A">
+                 <img src="m9.jpg">
+                 <h2>Berserk - Tome 01 - Nouvelle édition</h2>
+                 <h5>Kentaro Miura</h5>
+                 <h3>Prix:230 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m10.jpg">
+                 <h2>L'Attaque des Titans T01</h2>
+                 <h5>Hajime Isayama</h5>
+                 <h3>Prix:240 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m11.png">
+                 <h2>Chainsaw Man T01</h2>
+                  <h5>Tatsuki Fujimoto</h5>
+                 <h3>Prix:149 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m12.png">
+                 <h2>Nana T01</h2>
+                  <h5>Ai Yazawa</h5>
+                 <h3>Prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+         <div class="B"  >
+            <div class="A">
+                 <img src="m13.png">
+                 <h2>Seven Deadly Sins T01</h2>
+                  <h5>Nakaba Suzuki</h5>
+                 <h3>Prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m14.png">
+                 <h2>Fire Force - Tome 1</h2>
+                 <h5>Atsushi Ohkubo</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m15.png">
+                 <h2>One-Punch Man - tome 1</h2>
+                  <h5>Yusuke Murata</h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m16.png">
+                 <h2>Goldorak</h2>
+                  <h5>Dorison Xavier</h5>
+                 <h3>Prix:230 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+       
+
+        <div class="B">
+            <div class="A">
+                 <img src="m17.png">
+                 <h2>Kuroko's Basket T01</h2>
+                  <h5>Tadatoshi Fujimaki</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m18.png">
+                 <h2>Quartier lointain</h2>
+                  <h5>Jirô Taniguchi</h5>
+                 <h3>Prix:250 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m19.png">
+                 <h2>Quartier lointain</h2>
+                  <h5>Jirô Taniguchi</h5>
+                 <h3>Prix:260 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m20.png">
+                 <h2>Jojo's - Phantom Blood T01</h2>
+                  <h5>Hirohiko Araki</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="m21.png">
+                 <h2>Sakamoto Days - Tome 01</h2>
+                  <h5>Yuto Suzuki</h5>
+                 <h3>Prix:249 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m22.png">
+                 <h2>Fullmetal Alchemist Perfect - tome 1</h2>
+                 <h5>Hiromu Arakawa</h5>
+                 <h3>Prix:260 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m23.png">
+                 <h2>20th Century Boys Perfect Edition T01 - Fauve d'Angoulême - Prix de la Meilleure série 2004</h2>
+                  <h5>Naoki Urasawa</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m24.png">
+                 <h2>Captain Tsubasa - Saison 1 T01</h2>
+                  <h5>Yôichi Takahashi, Captain Tsubasa Committee</h5>
+                 <h3>Prix:180 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="m25.png">
+                 <h2>Doraemon - Tome 1</h2>
+                  <h5>Fujiko Fujio</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m26.png">
+                 <h2>Kaguya-sama: Love is War T01</h2>
+                  <h5>Aka Akasaka</h5>
+                 <h3>Prix:370 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m27.png">
+                 <h2>Beastars T01</h2>
+                  <h5>Paru Itagaki</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m28.png">
+                 <h2>Gto t01</h2>
+                 <h5>Tooru Fujisawa</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="m29.png">
+                 <h2>Détective Conan - Tome 1</h2>
+                  <h5>Gosho Aoyama</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m30.png">
+                 <h2>Gintama - Tome 1</h2>
+                  <h5>Hideaki Sorachi</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m31.png">
+                 <h2>Erased T01</h2>
+                  <h5>Kei Sanbe</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m32.png">
+                 <h2>Ranking of Kings T01</h2>
+                  <h5>Sosuke Toka</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="m33.png">
+                 <h2>City Hunter T01</h2>
+                  <h5>Tsukasa Hojo</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m34.png">
+                 <h2>Tokyo Ghoul - Tome 01</h2>
+                  <h5>Sui Ishida</h5>
+                 <h3>Prix:250 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m35.png">
+                 <h2>Magi - The Labyrinth of Magic - tome 1</h2>
+                 <h5>Shinobu Ohtaka</h5>
+                 <h3>Prix:147 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="m36.png">
+                 <h2>Demon Slayer T01</h2>
+                 <h5>Koyoharu Gotouge</h5> 
+                 <h3>Prix:110 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+    </body>
+</html>

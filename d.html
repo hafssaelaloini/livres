@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+        <style>
+            .A{
+    /*color de border*/
+    border: 4px rgb(32, 32, 32);
+    width: 300px;
+    align-items: center;
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*color de padding de berder*/
+    background-color: rgb(247, 228, 228);
+}
+td{
+    border: #4C4B16  1px solid;
+}
+.B{
+    display: flex;
+    margin-left: 35px;
+}
+
+:root{
+---pink:#E7B10A;
+}
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none; border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+}
+
+header .logo{
+font-size: 3rem;
+color: rgb(27, 5, 46);
+font-weight: bolder;
+}    
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 6rem;
+overflow-x: hidden;
+}
+@media (max-width:768px){
+
+header .fa-bars{
+display: block;
+}
+
+header .navbar{
+position: absolute;
+top: 100%; left: 0; right: 0;
+background: #07df73;
+border-top: .1res solid rgba(0,0,0,.1);
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+
+header #toggler:checked ~ .navbar{
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header .navbar a{
+   margin: 1.5rem; 
+   padding: 1.5rem;
+   background: blue;
+   border: .1rem solid rgba(0,0,0,.1);
+   display: block; 
+}
+}
+
+p{
+margin-left: 50px;
+
+font: 2em  xx-large;
+font-style:unset;
+box-sizing: border-box;
+}
+img{
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
+}
+h2{
+/*pour le titre*/
+color: rgb(63, 74, 168);
+margin-left:40px;
+margin-top: 4px;
+}
+h5{
+color: rgb(59, 59, 58);
+margin-left: 45px;
+margin-top: 5px;
+font-size:small;
+}
+h3{
+margin-top: 5px;
+margin-left: 35%;
+color: rgba(33, 116, 224, 0.712);
+}
+        </style>
+    </head>
+    <body>
+
+        <div class="B" >
+
+            <div class="A">
+                 <img src="d1.png">
+                 <h2>Les quatre accords toltèques</h2>
+                 <h5>Miguel Ruiz</h5>
+                 <h3>prix:250 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d2.png">
+                 <h2>Influence et manipulation</h2>
+                 <h5>Robert B. Cialdini</h5>
+                 <h3>prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d3.png">
+                 <h2>La cle de votre energie</h2>
+                 <h5>Natacha Calestrémé</h5>
+                 <h3>prix:280 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d4.png">
+                 <h2>Père riche, père pauvre</h2>
+                 <h5>Robert T. Kiyosaki</h5>
+                 <h3>prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        <div class="B">
+            <div class="A">
+                 <img src="d5.png">
+                 <h2>Lalchimiste</h2>
+                 <h5>Paulo Coelho</h5>
+                 <h3>prix:250 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d6.png">
+                 <h2>L'homme qui voulait être heureux</h2>
+                 <h5>Laurent Gounelle</h5>
+                 <h3>prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d7.png">
+                 <h2>Miracle morning</h2>
+                 <h5>ELROD, HAL, Hal Elrod</h5>
+                 <h3>prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d8.png">
+                 <h2>Petit Livre du lâcher-prise - Recentrez-vous sur l'essentiel</h2>
+                 <h5>Emilie Pernet</h5>
+                 <h3>prix:240 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+<h2><p><b></b></p></h2>
+
+        <div class="B">
+            <div class="A">
+                 <img src="d9.png">
+                 <h2>Les mots sont des fenêtres (ou bien ce sont des murs)</h2>
+                 <h5>Marshall B. Rosenberg</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d10.png">
+                 <h2>Le 5e accord toltèque</h2>
+                 <h5>Marshall B. Rosenberg</h5>
+                 <h3>prix:165 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d11.png">
+                 <h2>Imparfaits, libres et heureux</h2>
+                 <h5>Christophe André</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d12.png">
+                 <h2>Réfléchissez et devenez riche</h2>
+                 <h5>Napoleon Hill</h5>
+                 <h3>prix:270 MAD</h3> 
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+         <div class="B"  >
+            <div class="A">
+                 <img src="d13.png">
+                 <h2>Hypersensibles mieux se comprendre</h2>
+                 <h5>Elaine N. Aron</h5>
+                 <h3>prix:149 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d14.png">
+                 <h2>La Santé devant soi - Le Secret millénaire qui va changer votre vie</h2>
+                 <h5>Frédéric Saldmann</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d15.png">
+                 <h2>La maîtrise de l'amour</h2>
+                 <h5>Miguel Ruiz</h5>
+                 <h3>prix:230 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d16.png">
+                 <h2>Guérir son enfant intérieur</h2>
+                 <h5>Moussa Nabati</h5>
+                 <h3>prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+       
+
+        <div class="B">
+            <div class="A">
+                 <img src="d17.png">
+                 <h2>La semaine de 4 heures 2e ed</h2>
+                 <h5>Timothy Ferris, Timothy Ferriss</h5>
+                 <h3>prix:100 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d18.png">
+                 <h2>L'obstacle est le chemin</h2>
+                 <h5>Ryan Holiday</h5>
+                 <h3>prix:220 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d19.png">
+                 <h2>Le miracle Spinoza</h2>
+                 <h5>Ryan Holiday</h5>
+                 <h3>prix:162 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d20.png">
+                 <h2>On n'est jamais mieux soigné que par soi-même</h2>
+                 <h5>Frédéric Saldmann</h5>
+                 <h3>prix:210 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="d21.png">
+                 <h2>Burn after writing </h2>
+                 <h5>Sharon Jones</h5>
+                 <h3>prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d22.png">
+                 <h2>Cessez d'être gentil, soyez vrai ! </h2>
+                 <h5>Thomas D'Ansembourg</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d23.png">
+                 <h2>Le pouvoir de la confiance en soi</h2>
+                 <h5>Brian Tracy</h5>
+                 <h3>prix:300 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d24.png">
+                 <h2>J'ai pas les codes !</h2>
+                 <h5>Christel Petitcollin</h5>
+                 <h3>prix:240 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="d25.png">
+                 <h2>L'Adulte surdoué</h2>
+                 <h5>Monique de Kermadec</h5>
+                 <h3>prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d26.png">
+                 <h2>Comme par magie</h2>
+                 <h5>Elizabeth Gilbert</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d27.png">
+                 <h2>The Good Life</h2>
+                 <h5> Marc S. Schulz</h5>
+                 <h3>prix:250 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d28.png">
+                 <h2>Ma petite organisation</h2>
+                 <h5>Sixtine Thomas-Richard</h5>
+                 <h3>prix:125 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="d29.png">
+                 <h2>Le pouvoir rhetorique</h2>
+                 <h5>Clément Viktorovitch</h5>
+                 <h3>prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="d30.png">
+                 <h2>Votre idée va devenir une réalité</h2>
+                 <h5>Fabien Olicard</h5>
+                 <h3>prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+        </div>
+        </fieldset>  
+         
+    </body>
+</html>

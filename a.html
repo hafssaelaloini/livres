@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+       <style>
+          .A{
+    /*color de border*/
+    border: 4px rgb(32, 32, 32);
+    width: 300px;
+    align-items: center;
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*color de padding de berder*/
+    background-color: rgb(247, 228, 228);
+}
+td{
+    border: #4C4B16  1px solid;
+}
+.B{
+    display: flex;
+    margin-left: 35px;
+}
+
+:root{
+---pink:#E7B10A;
+}
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none; border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+}
+
+header .logo{
+font-size: 3rem;
+color: rgb(27, 5, 46);
+font-weight: bolder;
+}    
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 6rem;
+overflow-x: hidden;
+}
+@media (max-width:768px){
+
+header .fa-bars{
+display: block;
+}
+
+header .navbar{
+position: absolute;
+top: 100%; left: 0; right: 0;
+background: #07df73;
+border-top: .1res solid rgba(0,0,0,.1);
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+
+header #toggler:checked ~ .navbar{
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header .navbar a{
+   margin: 1.5rem; 
+   padding: 1.5rem;
+   background: blue;
+   border: .1rem solid rgba(0,0,0,.1);
+   display: block; 
+}
+}
+
+p{
+margin-left: 50px;
+
+font: 2em  xx-large;
+font-style:unset;
+box-sizing: border-box;
+}
+img{
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
+}
+h2{
+/*pour le titre*/
+color: rgb(63, 74, 168);
+margin-left:40px;
+margin-top: 4px;
+}
+h5{
+color: rgb(59, 59, 58);
+margin-left: 45px;
+margin-top: 5px;
+font-size:small;
+}
+h3{
+margin-top: 5px;
+margin-left: 35%;
+color: rgba(33, 116, 224, 0.712);
+}
+       </style>
+    </head>
+    <body>
+
+        <div class="B" >
+            <div class="A">
+                 <img src="a1.png">
+                 <h2>La Mouche qui pète</h2>
+                 <h5>Michal Escoffier</h5>
+                 <h3>Prix:270 MAD </h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a2.png">
+                 <h2>Le Marchand de bonheure </h2>
+                 <h5>Davide Cali</h5>
+                 <h3>Prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a3.png">
+                 <h2>les choses préceuses</h2>
+                 <h5>Astrid Desbordes</h5>
+                 <h3>Prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a4.png">
+                 <h2>Chevalier Chouette</h2>
+                 <h5>Christopher Denise</h5>
+                 <h3>Prix:210 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        <div class="B">
+            <div class="A">
+                 <img src="a5.png">
+                 <h2>Le Mange-doudous</h2>
+                 <h5>Julien Béziat</h5>
+                 <h3>Prix:300 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a6.png">
+                 <h2>Jules et le renard</h2>
+                 <h5>Joe Todd-Stanton</h5>
+                 <h3>Prix:180 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a7.png">
+                 <h2>Renard et Petit Georges</h2>
+                 <h5>Thibault Prugne</h5>
+                 <h3>Prix:280 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a8.png">
+                 <h2>1, 2, 3 petits chats</h2>
+                 <h5>Michel Van Zeveren</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+<h2><p><b></b></p></h2>
+
+        <div class="B">
+            <div class="A">
+                 <img src="a9.png">
+                 <h2>La comète</h2>
+                 <h5>Joe Todd-Stanton</h5>
+                 <h3>Prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a10.png">
+                 <h2>Va-t'en, grand monstre vert !</h2>
+                 <h5>Ed Emberley</h5>
+                 <h3>Prix:290 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a11.png">
+                 <h2>La vie c'est quoi ?</h2>
+                  <h5>Aldebert</h5>
+                 <h3>Prix:240 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a12.png">
+                 <h2>Ta maman pour la vie</h2>
+                 <h5>Marion Donon</h5>
+                 <h3>Prix:149 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+         <div class="B"  >
+            <div class="A">
+                 <img src="a13.png">
+                 <h2>La Meilleure Maman du Monde</h2>
+                 <h5>Sébastien Perez</h5>
+                 <h3>Prix:350 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a14.png">
+                 <h2>Un jour j'ai eu une idée</h2>
+                  <h5>Kobi Yamada</h5>
+                 <h3>Prix:230 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a15.png">
+                 <h2>Mon amie la licorne</h2>
+                 <h5>Briony May Smith</h5>
+                 <h3>Prix:200 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a16.png">
+                 <h2>Mon amie la petite sirène</h2>
+                  <h5>Briony May Smith</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+       
+
+        <div class="B">
+            <div class="A">
+                 <img src="a17.png">
+                 <h2>Hardie comme une souris</h2>
+                 <h5>Nicolo Carozzi</h5>
+                 <h3>Prix:99 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a18.png">
+                 <h2>C'est mon arbre</h2>
+                  <h5>Olivier Tallec</h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a19.png">
+                 <h2>Oscar et Albert</h2>
+                  <h5>Chris Naylor-Ballesteros</h5>
+                 <h3>Prix:370 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="a20.png">
+                 <h2>Mon passage secret</h2>
+                  <h5>Max Ducos</h5>
+                 <h3>Prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        
+  
+        </fieldset>  
+         
+    </body>
+</html>
