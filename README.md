@@ -20,7 +20,8 @@ margin-top: 10px;
 .B{
 display:flex;
 margin-bottom: 30px;
-left: 0; right: 0; 
+margin-left: 0px;
+margin-rigth: 0px;
 }
 header{
 position: fixed;
