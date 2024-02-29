@@ -1,95 +1,96 @@
-<title>les livres</title>
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
-<style>
-.A{
-border: 4px #d4a589;
-width: 300px;
-align-items: center;
-height: 430px;
-border-radius: 15px;
-margin-left: 35px;
-margin-right: 20px;
-margin-top: 20px;
-background-color: rgb(247, 228, 228);
-}
-img{
-width:230px ;
-height: 300px;
-margin-left: 25px;
-margin-top: 10px;
-} 
-.B{
-display: flex;
-margin-left:35px;
-margin-bottom:30px;
-}
-header{
-position: fixed;
-top: 0; left: 0; right: 0; 
-background: #888380;
-padding: 2rem 9%;
-padding-left: 30px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-z-index: 1000;
-box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
-}
-:root{
----pink:#fce7e7;
-}
-header .logo{
-font-size: 3rem;
-color: #d4a589;
-font-weight: bolder;
-}
-.btn  {
-display:block;
-margin-top: 2rem;
-border-radius: 5rem;
-background:#07064d;
-color: #eee;
-padding: 1ram 4rem;
-cursor: pointer;
-font-size: 2rem;
-margin:10px;
-padding-left: 20px
-}
-header .fa-bars {
-font-size: 3rem;
-color: #d4a589;
-border-radius: .5rem ;
-padding: 0.5rem  1.5rem;
-cursor: pointer;
-border: 0.1rem solid rgba(0,0,0,3);
-display: none;
-}               
-header .icons a:hover  {
-          color:var(---pink);
-}  
-header .icons a{
-        font-size: 2.5rem;
-        color:#d4a589;
-        margin-left: 1.5rem;
+<head>
+        <title>les livres</title>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+        <style>
+         .A{
+    border: 4px #d4a589 ;
+    width: 300px;
+    align-items: center;
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(247, 228, 228);
+          }
+          img{
+            width:230px ;
+            height: 300px;
+            margin-left: 25px;
+            margin-top: 10px;
+              } 
+              .B{
+                display: flex;
+                margin-left: 35px;
+                margin-bottom: 30px;
+            }
+            header{
+            position: fixed;
+            top: 0; left: 0; right: 0; 
+            background: #888380;
+            padding: 2rem 9%;
+            padding-left: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
         }
-header .navbar a:hover{
-        color: var(---pink);
-}
-.btn:hover{
-         background: var(---pink);
-}
+        :root{
+            ---pink:#fce7e7;
+        }
+        header .logo{
+            font-size: 3rem;
+          color: #d4a589;
+            font-weight: bolder;
+        }
+        .btn  {
+            display:block;
+            margin-top: 2rem;
+            border-radius: 5rem;
+            background:#07064d;
+            color: #eee;
+            padding: 1ram 4rem;
+            cursor: pointer;
+            font-size: 2rem;
+            margin:10px;
+            padding-left: 20px
+        }
+             header .fa-bars {
+            font-size: 3rem;
+            color: #d4a589;
+            border-radius: .5rem ;
+            padding: 0.5rem  1.5rem;
+            cursor: pointer;
+            border: 0.1rem solid rgba(0,0,0,3);
+            display: none;
+        }          
+        header .icons a:hover  {
+            color: var(---pink);
+        }
+        header .icons a{
+            font-size: 2.5rem;
+            color:#d4a589;
+            margin-left: 1.5rem;
+        }
+     header .navbar a:hover{
+            color: var(---pink);
+        }
+        .btn:hover{
+            background: var(---pink);
+        }
 header #toggler{
-        display: none;
-}
-header .logo span{
-        color: var(---pink);
-}
-header .navbar a{
-        font-size: 2rem;
-        padding: 0 1.5rem;
-        color:#d4a589;
-}
-.bouton {
+            display: none;
+        }    
+        header .logo span{
+            color: var(---pink);
+        }    
+        header .navbar a{
+            font-size: 2rem;
+            padding: 0 1.5rem;
+                    color:#d4a589;
+        }
+        .bouton {
       display: inline-block;
       padding: 10px 20px;
       background-color:#d4a589;
@@ -101,125 +102,125 @@ header .navbar a{
       transition: transform 0.3s;
       width: 200px;
       height: 70px;
-      transform:translateX(1.1rem);    
-}
-p{
-      margin-left: 85px;
-      font: 2em  xx-large;
-      font-style:unset;
-}
-html{
-         font-size: 62.5%;
-        scroll-behavior: smooth;
-        scroll-padding-top: 6rem;
-        overflow-x: hidden;
-}
+      transform:translateX(1.1rem);
+    }
+    p{
+            margin-left: 85px;
+            font: 2em  xx-large;
+            font-style:unset;
+        }
+        html{
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+            scroll-padding-top: 6rem;
+            overflow-x: hidden;
+        }
 *{
-        margin: 0; padding: 0;
-        box-sizing: border-box;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        outline: none; border: none;
-        text-decoration: none;
-        text-transform: capitalize;
-        transition: .2s linear;
-}
-header .logo{
-        font-size: 3rem;
-        color: #d4a589;
-        font-weight: bolder;
-}
-@media (max-width:450px){
-html{
-        font-size: 50%;
-}
-}  
-@media (max-width:991px){
-html{
-        font-size: 55%;
-}
-header{
-        padding:2rem ;
-        margin-bottom: 15px;
-}
-}
-@media (max-width:768px){
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            outline: none; border: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: .2s linear;
+        }
+  header .logo{
+            font-size: 3rem;
+          color: #d4a589;
+            font-weight: bolder;
+        }
+        @media (max-width:450px){
+            html{
+                font-size: 50%;
+            }
+        }  
+    @media (max-width:991px){
+            html{
+                font-size: 55%;
+            }
+            header{
+                padding:2rem ;
+                margin-bottom: 15px;
+            }
+        }
+     @media (max-width:768px){  
         header .fa-bars{
-        display: block;
-}
-header .navbar{
-        position: absolute;
-        top: 100%; left: 0; right: 0;
-        background: #07df73;
-        border-top: .1res solid rgba(0,0,0,.1);
+          display: block;
+        }
+         header .navbar{
+            position: absolute;
+            top: 100%; left: 0; right: 0;
+            background: #07df73;
+            border-top: .1res solid rgba(0,0,0,.1);
+            clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+        }
+    header #toggler:checked ~ .navbar{
         clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
-}
-header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
-}
-header .navbar a{
-         margin: 1.5rem; 
-         padding: 1.5rem;
-         background: blue;
-         border: .1rem solid rgba(0,0,0,.1);
-         display: block; 
-}
-}
-per{
+    }
+       header .navbar a{
+           margin: 1.5rem; 
+           padding: 1.5rem;
+           background: blue;
+           border: .1rem solid rgba(0,0,0,.1);
+           display: block; 
+        }
+    }
+    pre{
         margin-left: 40px;
         font-display:initial;
         color: #07064d;
         font-size: medium;
     }
-fieldset{
+    fieldset{
          background-color: rgb(241, 196, 222);
          margin: 100px;
          border-radius:  50px;
          width: 400px;
          margin-left: 400px;
          padding-top: 20px;
-         padding-left: 120px; 
+         padding-left: 120px;   
     }
-h3{
+    h3{
         padding-bottom: 20px;
-}
-input{
-         margin: 15px;
-         width: 350px;
-         height: 30px;
-}
-.div{
-        width: 500px;
-        font-size: medium;
-}
-.boutonn{
-        margin-left: 150px;
-        border-radius: 30px;
-         width: 100px;
-         background-color: rgb(159, 189, 245);
- }
-.boutonn:active{
-         background-color: rgba(13, 19, 105, 0.74);
-        outline: none;/pour enlever la bordure  rgb(159, 189, 245)/
-}
-.h2{
-        color: rgb(63, 74, 168);
-        margin-left:40px;
-        margin-top: 4px;
+    }
+    input{
+                margin: 15px;
+                width: 350px;
+                height: 30px;       
+            }
+        .div{
+                width: 500px;
+                font-size: medium;
+            }
+            .boutonn{
+                margin-left: 150px;
+                border-radius: 30px;
+                width: 100px;
+                background-color: rgb(159, 189, 245);
+                   }
+            .boutonn:active{
+                background-color: rgba(13, 19, 105, 0.74);
+                outline: none;            
+            }
+ .h2{
+color: rgb(63, 74, 168);
+margin-left:40px;
+margin-top: 4px;
 }
 .h5{
-        color: rgb(59, 59, 58);
-        margin-left: 45px;
-        margin-top: 5px;
-        font-size:small;
+color: rgb(59, 59, 58);
+margin-left: 45px;
+margin-top: 5px;
+font-size:small;
 }
 .h3{
-        margin-top: 5px;
-        margin-left: 35%;
-        color: rgba(33, 116, 224, 0.712);
+margin-top: 5px;
+margin-left: 35%;
+color: rgba(33, 116, 224, 0.712);
 }
 </style>
 </head>
-<body>
+ <body>
 <header>
 <input type="checkbox" id="toggler">
 <label for="toggler" class="fas fa-bars" ></label>
@@ -457,4 +458,6 @@ input{
     Lisez quelques pages : Si possible, lisez sa quatrième de couverture et les premières pages du livre pour voir si le style d'écriture vous plaît.
     
     Chaque lecteur est unique, alors n'hésitez pas à suivre votre instinct et à choisir un livre qui vous attire vraiment.</per>
-    </body></html>
+
+</body>
+</html>
