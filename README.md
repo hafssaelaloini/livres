@@ -195,8 +195,8 @@ header #toggler{
             }
  .h2{
 color: rgb(63, 74, 168);
-margin-left:40px;
-margin-top: 4px;
+margin-left:00px;
+margin-top: 0px;
 }
 .h5{
 color: rgb(59, 59, 58);
@@ -417,7 +417,7 @@ color: rgba(33, 116, 224, 0.712);
 <a href="#" class="fas fa-star"></a>
 <a href="#" class="fas fa-star"></a></center>
 </div>
-<div class="A"  ><center>
+<div class="A"><center>
 <a href="art.html" target="_blank"><p style="box-sizing: border-box; margin: 80px;">pour voir plus des livres</p><button class="bouton">clique ici</button></a></center>
 </div></div>
 <h1 style="margin-top: 20px; margin-left: 25%; margin-bottom: 15px;">Quels sont les meilleurs romans incontournables à lire ?</h1>
@@ -449,6 +449,3 @@ color: rgba(33, 116, 224, 0.712);
     Lisez quelques pages : Si possible, lisez sa quatrième de couverture et les premières pages du livre pour voir si le style d'écriture vous plaît.
     
     Chaque lecteur est unique, alors n'hésitez pas à suivre votre instinct et à choisir un livre qui vous attire vraiment.</per>
-
-</body>
-</html>
