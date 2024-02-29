@@ -4,23 +4,21 @@
 <style>
 .A{
 border: 4px #d4a589 ;
-width: 500px;
-height: 530px;
+width: 600px;
+height: 580px;
 border-radius: 15px;
-margin-left: 5px;
-margin-right: 5px;
 margin-top: 20px;
 background-color: rgb(247, 228, 228);
 }
 img{
-width:230px ;
+width:430px ;
 height:300px;
 margin-left:5px;
 margin-top: 10px;
 } 
 .B{
 display:flex;
-margin-left: 5px;
+margin-left: 15px;
 margin-bottom: 30px;
 }
 header{
@@ -55,7 +53,7 @@ box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
             margin:10px;
             padding-left: 20px
         }
-             header .fa-bars {
+header .fa-bars {
             font-size: 3rem;
             color: #d4a589;
             border-radius: .5rem ;
@@ -99,7 +97,7 @@ header #toggler{
       font-size: 20px;
       cursor: pointer;
       transition: transform 0.3s;
-      width: 200px;
+      width: 250px;
       height: 70px;
       transform:translateX(1.1rem);
     }
@@ -155,30 +153,17 @@ header #toggler{
            display: block; 
         }
     }
-    pre{
+    per{
         margin-left: 40px;
         font-display:initial;
         color: #07064d;
         font-size: medium;
     }
-    fieldset{
-         background-color: rgb(241, 196, 222);
-         margin: 100px;
-         border-radius:  50px;
-         width: 400px;
-         margin-left: 400px;
-         padding-top: 20px;
-         padding-left: 120px;   
-    }
     h3{
         padding-bottom: 20px;
+        margin-left:5px;
     }
-    input{
-                margin: 15px;
-                width: 350px;
-                height: 30px;       
-            }
-        .div{
+       .div{
                 width: 500px;
                 font-size: medium;
             }
@@ -194,18 +179,18 @@ header #toggler{
             }
  .h2{
 color: rgb(63, 74, 168);
-margin-left:00px;
-margin-top: 0px;
+margin-left:5px;
+margin-top: 5px;
 }
 .h5{
 color: rgb(59, 59, 58);
-margin-left: 45px;
+margin-left: 30px;
 margin-top: 5px;
 font-size:small;
 }
 .h3{
 margin-top: 5px;
-margin-left: 35%;
+margin-left: 15px;
 color: rgba(33, 116, 224, 0.712);
 }
 </style>
