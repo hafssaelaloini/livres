@@ -26,15 +26,15 @@ margin-bottom: 30px;
 }
 header{
 position: fixed;
-            top: 0; left: 0; right: 0; 
-            background: #888380;
-            padding: 2rem 9%;
-            padding-left: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            z-index: 1000;
-            box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+top: 0; left: 0; right: 0; 
+background: #888380;
+padding: 2rem 9%;
+padding-left: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
         }
         :root{
             ---pink:#fce7e7;
