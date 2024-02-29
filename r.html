@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+        <style>
+          .A{
+    /*color de border*/
+    border: 4px rgb(32, 32, 32);
+    width: 300px;
+    align-items: center;
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*color de padding de berder*/
+    background-color: rgb(247, 228, 228);
+}
+td{
+    border: #4C4B16  1px solid;
+}
+.B{
+    display: flex;
+    margin-left: 35px;
+}
+
+:root{
+---pink:#E7B10A;
+}
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none; border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+}
+
+header .logo{
+font-size: 3rem;
+color: rgb(27, 5, 46);
+font-weight: bolder;
+}    
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 6rem;
+overflow-x: hidden;
+}
+@media (max-width:768px){
+
+header .fa-bars{
+display: block;
+}
+
+header .navbar{
+position: absolute;
+top: 100%; left: 0; right: 0;
+background: #07df73;
+border-top: .1res solid rgba(0,0,0,.1);
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+
+header #toggler:checked ~ .navbar{
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header .navbar a{
+   margin: 1.5rem; 
+   padding: 1.5rem;
+   background: blue;
+   border: .1rem solid rgba(0,0,0,.1);
+   display: block; 
+}
+}
+
+p{
+margin-left: 50px;
+
+font: 2em  xx-large;
+font-style:unset;
+box-sizing: border-box;
+}
+img{
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
+}
+h2{
+/*pour le titre*/
+color: rgb(63, 74, 168);
+margin-left:40px;
+margin-top: 4px;
+}
+h5{
+color: rgb(59, 59, 58);
+margin-left: 45px;
+margin-top: 5px;
+font-size:small;
+}
+h3{
+margin-top: 5px;
+margin-left: 35%;
+color: rgba(33, 116, 224, 0.712);
+}
+        </style>
+    </head>
+    <body>
+
+        <div class="B" >
+            <div class="A">
+                 <img src="r1.png">
+                 <h2>Inheritance Games - tome 1</h2>
+                 <h5>Jennifer Lynn Barnes</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r2.png">
+                 <h2>Le passeur</h2>
+                 <h5>LOWRY, LOIS, Lois Lowry</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r3.png">
+                 <h2>L'héritier trahi</h2>
+                 <h5>Holly Black</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r4ù.png">
+                 <h2>Anatomy : Love story (Français)</h2>
+                 <h5>Dana Schwartz</h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        <div class="B">
+            <div class="A">
+                 <img src="r5.png">
+                 <h2>Sauveur et fils s1</h2>
+                 <h5>Marie-Aude Murail</h5>
+                 <h3>Prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r6.png">
+                 <h2>La sélection - tome 1</h2>
+                 <h5>Kiera Cass</h5>
+                 <h3>Prix:230 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r7.png">
+                 <h2></h2>
+                 <h5></h5>
+                 <h3>Prix:150 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r8.png">
+                 <h2>Le Premier qui meurt à la fin</h2>
+                 <h5>Adam Silvera</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+<h2><p><b></b></p></h2>
+
+        <div class="B">
+            <div class="A">
+                 <img src="r9.png">
+                 <h2>Nick & Charlie - Une novella dans l'univers de Heartstopper</h2>
+                 <h5>Alice Oseman</h5>               
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r10.png">
+                 <h2>Meurtre mode demploi a lusage des jeunes</h2>
+                 <h5>Holly Jackson</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r11.png">
+                 <h2>Et ils meurent tous les deux a la fin</h2>
+                 <h5>Adam Silvera</h5>
+                 <h3>Prix:280 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r12.png">
+                 <h2>Phobos - tome 1</h2>
+                 <h5>Victor Dixen</h5>
+                 <h3>Prix:130 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+         <div class="B"  >
+            <div class="A">
+                 <img src="r13.png">
+                 <h2>Liens de sang</h2>
+                 <h5>Karen M. McManus</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r14.png">
+                 <h2>Cet hiver - Une novella dans l'univers de Heartstopper</h2>
+                 <h5>Alice Oseman</h5>
+                 <h3>Prix:170 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r15.png">
+                 <h2>L'année Solitaire</h2>
+                 <h5>Alice Oseman</h5>
+                 <h3>Prix:210 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r16.png">
+                 <h2>Le souffle du puma</h2>
+                 <h5>Laurine Roux</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+       
+
+        <div class="B">
+            <div class="A">
+                 <img src="r17.png">
+                 <h2>Anne tome 1 : Anne de Green Gables</h2>
+                 <h5>Lucy Maud Montgomery</h5>
+                 <h3>Prix:190 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r18.png">
+                 <h2>L'incroyable voyage de Coyote Sunrise</h2>
+                 <h5>Dan Gemeinhart</h5>
+                 <h3>Prix:145 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r19.png">
+                 <h2>Twin Crowns, Tome 01</h2>
+                 <h5>Katie Tsang, Catherine Doyle</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r20.png">
+                 <h2>Eleanor & Park</h2>
+                 <h5>Rainbow Rowell</h5>
+                 <h3>Prix:260 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="r21.png">
+                 <h2>Demandez-leur la lune</h2>
+                 <h5>Isabelle Pandazopoulos</h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r22.png">
+                 <h2>Qui es-tu Alaska ?</h2>
+                 <h5>John Green</h5>
+                 <h3>Prix:220 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r23.png">
+                 <h2>L'année de grâce</h2>
+                 <h5>Kim Liggett</h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r24.png">
+                 <h2>Meurtre mode d'emploi</h2>
+                 <h5>Holly Jackson</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="r25.png">
+                 <h2>Les Facétieuses</h2>
+                 <h5>Clémentine Beauvais</h5>
+                 <h3>Prix:280 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r26.png">
+                 <h2>N.E.O. - tome 1 La chute du soleil de fer</h2>
+                 <h5>Michel Bussi</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r27.png">
+                 <h2>Là où règnent les baleines</h2>
+                 <h5>Jolan C. Bertrand</h5>
+                 <h3>Prix:145 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r28.png">
+                 <h2>Ici et seulement Ici</h2>
+                 <h5>Christelle Dabos</h5>
+                 <h3>Prix:125 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="r29.png">
+                 <h2>Quoi revent les etoiles</h2>
+                 <h5>Manon Fargetton</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r30.png">
+                 <h2>Caballero</h2>
+                 <h5>Lenia Major</h5>
+                 <h3>Prix:232 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r31.png">
+                 <h3>Prix:160 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r32.png">
+                 <h2></h2>
+                 <h5></h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+        <div class="B">
+            <div class="A">
+                 <img src="r33.png">
+                 <h2>Le Fracas et le silence</h2>
+                 <h5>Cory Anderson</h5>
+                 <h3>Prix:120 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r34.png">
+                 <h2>si je dois te trahir</h2>
+                 <h5>adu-geunesse</h5>
+                 <h3>Prix:140 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r35.png">
+                 <h2>Le royaume de pierre d'angle</h2>
+                 <h5>Pascale Quiviger</h5>
+                 <h3>Prix:270 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+            <div class="A">
+                 <img src="r36.png">
+                 <h2>la carte des confins</h2>
+                 <h5>babelio</h5>
+                 <h3>Prix:320 MAD</h3>
+                <center> <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a>
+                 <a href="#" class="fas fa-star"></a></center>
+            </div>
+        </div>
+
+        
+  
+        </fieldset>  
+         
+    </body>
+</html>
