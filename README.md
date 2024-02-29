@@ -1,31 +1,33 @@
 <head>
-        <title>les livres</title>
-        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
-        <style>
-         .A{
-    border: 4px #d4a589 ;
-    width: 300px;
-    align-items: center;
-    height: 430px;
-    border-radius: 15px;
-    margin-left: 35px;
-    margin-right: 20px;
-    margin-top: 20px;
-    background-color: rgb(247, 228, 228);
-          }
-          img{
-            width:230px ;
-            height: 300px;
-            margin-left: 25px;
-            margin-top: 10px;
-              } 
-              .B{
-                display: flex;
-                margin-left: 35px;
-                margin-bottom: 30px;
-            }
-            header{
-            position: fixed;
+<title>les livres</title>
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+<style>
+.A{
+border: 4px #d4a589 ;
+width: 300px;
+align-items: center;
+height: 430px;
+border-radius: 15px;
+margin-left: 35px;
+margin-right: 20px;
+margin-top: 20px;
+background-color: rgb(247, 228, 228);
+}
+img{
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
+} 
+.B{
+display:flex;
+margin-left: 35px;
+margin-bottom: 30px;
+white:500px;
+height:600px;
+}
+header{
+position: fixed;
             top: 0; left: 0; right: 0; 
             background: #888380;
             padding: 2rem 9%;
