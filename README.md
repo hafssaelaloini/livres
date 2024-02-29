@@ -8,7 +8,7 @@ width: 620px;
 height: 600px;
 border-radius: 15px;
 margin-top: 20px;
-margin-left: 20px;
+margin-left: 25px;
 background-color: rgb(247, 228, 228);
 }
 img{
@@ -18,7 +18,7 @@ margin-left:5px;
 margin-top: 10px;
 } 
 .B{
-display:flex;
+display:inline-block;/**/
 margin-bottom: 30px;
 margin-left: 0px;
 margin-rigth: 0px;
@@ -31,7 +31,7 @@ padding: 2rem 9%;
 padding-left: 30px;
 display: flex;
 align-items: center;  
-/* justify-content: space-between; */
+justify-content: space-between; 
 z-index: 1000;
 box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
 }
@@ -112,7 +112,7 @@ html{
 font-size: 62.5%;
 scroll-behavior: smooth;
 scroll-padding-top: 2rem;
-overflow-x: hidden;
+/*overflow-x: hidden;*/
 }
 header .logo{
 font-size: 3rem;
@@ -124,7 +124,7 @@ html{
 font-size: 70%;
 }
 }  
-@media (max-width:999px){
+@media (max-width:800px){/**/
 html{
 font-size: 70%;
 }
