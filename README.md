@@ -8,7 +8,7 @@ width: 300px;
 align-items: center;
 height: 430px;
 border-radius: 15px;
-margin-left: 35px;
+margin-left: 10px;
 margin-right: 20px;
 margin-top: 20px;
 background-color: rgb(247, 228, 228);
