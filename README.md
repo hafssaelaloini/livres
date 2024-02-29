@@ -3,8 +3,8 @@
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
 <style>
 .A{
-border: 4px #d4a589 ;
-width: 600px;
+border: 2px #d4a589 ;
+width: 620px;
 height: 600px;
 border-radius: 15px;
 margin-top: 20px;
@@ -30,7 +30,7 @@ background: #888380;
 padding: 2rem 9%;
 padding-left: 30px;
 display: flex;
-align-items: center;
+/* align-items: center; */
 justify-content: space-between;
 z-index: 1000;
 box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
@@ -87,7 +87,7 @@ header #toggler{
         header .navbar a{
             font-size: 2rem;
             padding: 0 1.5rem;
-                    color:#d4a589;
+            color:#d4a589;
         }
         .bouton {
       display: inline-block;
@@ -111,7 +111,7 @@ header #toggler{
         html{
             font-size: 62.5%;
             scroll-behavior: smooth;
-            scroll-padding-top: 6rem;
+            scroll-padding-top: 2rem;
             overflow-x: hidden;
         }
   header .logo{
@@ -119,14 +119,14 @@ header #toggler{
           color: #d4a589;
             font-weight: bolder;
         }
-        @media (max-width:450px){
+        @media (max-width:650px){
             html{
-                font-size: 50%;
+                font-size: 70%;
             }
         }  
-    @media (max-width:991px){
+    @media (max-width:999px){
             html{
-                font-size: 55%;
+                font-size: 70%;
             }
             header{
                 padding:2rem ;
@@ -165,11 +165,7 @@ header #toggler{
         padding-bottom: 20px;
         margin-left:5px;
     }
-       .div{
-                width: 500px;
-                font-size: medium;
-            }
-            .boutonn{
+       .boutonn{
                 margin-left: 150px;
                 border-radius: 30px;
                 width: 100px;
