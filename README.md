@@ -1,5 +1,3 @@
-<!DOCTYPE HTML>
-<html>
 <title>les livres</title>
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
 <style>
@@ -49,18 +47,18 @@ font-weight: bolder;
 display:block;
 margin-top: 2rem;
 border-radius: 5rem;
-            background:#07064d;
-            color: #eee;
-            padding: 1ram 4rem;
-            cursor: pointer;
-            font-size: 2rem;
-            margin:10px;
-            padding-left: 20px
+background:#07064d;
+color: #eee;
+padding: 1ram 4rem;
+cursor: pointer;
+font-size: 2rem;
+margin:10px;
+padding-left: 20px
 }
 header .fa-bars {
-            font-size: 3rem;
-            color: #d4a589;
-            border-radius: .5rem ;
+font-size: 3rem;
+color: #d4a589;
+border-radius: .5rem ;
 padding: 0.5rem  1.5rem;
 cursor: pointer;
 border: 0.1rem solid rgba(0,0,0,3);
@@ -172,7 +170,7 @@ per{
         color: #07064d;
         font-size: medium;
     }
-    fieldset{
+fieldset{
          background-color: rgb(241, 196, 222);
          margin: 100px;
          border-radius:  50px;
