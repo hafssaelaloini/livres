@@ -4,51 +4,51 @@
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
 <style>
 .A{
-        border: 4px #d4a589;
-        width: 300px;
-        align-items: center;
-        height: 430px;
-        border-radius: 15px;
-        margin-left: 35px;
-        margin-right: 20px;
-        margin-top: 20px;
-        background-color: rgb(247, 228, 228);
+border: 4px #d4a589;
+width: 300px;
+align-items: center;
+height: 430px;
+border-radius: 15px;
+margin-left: 35px;
+margin-right: 20px;
+margin-top: 20px;
+background-color: rgb(247, 228, 228);
 }
 img{
-        width:230px ;
-        height: 300px;
-        margin-left: 25px;
-        margin-top: 10px;
+width:230px ;
+height: 300px;
+margin-left: 25px;
+margin-top: 10px;
 } 
 .B{
-        display: flex;
-        margin-left:35px;
-        margin-bottom:30px;
+display: flex;
+margin-left:35px;
+margin-bottom:30px;
 }
 header{
-        position: fixed;
-        top: 0; left: 0; right: 0; 
-        background: #888380;
-        padding: 2rem 9%;
-        padding-left: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 1000;
-        box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+position: fixed;
+top: 0; left: 0; right: 0; 
+background: #888380;
+padding: 2rem 9%;
+padding-left: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
 }
 :root{
-        ---pink:#fce7e7;
+---pink:#fce7e7;
 }
 header .logo{
-        font-size: 3rem;
-        color: #d4a589;
-        font-weight: bolder;
+font-size: 3rem;
+color: #d4a589;
+font-weight: bolder;
 }
 .btn  {
-            display:block;
-            margin-top: 2rem;
-            border-radius: 5rem;
+display:block;
+margin-top: 2rem;
+border-radius: 5rem;
             background:#07064d;
             color: #eee;
             padding: 1ram 4rem;
@@ -61,12 +61,11 @@ header .fa-bars {
             font-size: 3rem;
             color: #d4a589;
             border-radius: .5rem ;
-            padding: 0.5rem  1.5rem;
-            cursor: pointer;
-            border: 0.1rem solid rgba(0,0,0,3);
-            display: none;
-}       
-        
+padding: 0.5rem  1.5rem;
+cursor: pointer;
+border: 0.1rem solid rgba(0,0,0,3);
+display: none;
+}               
 header .icons a:hover  {
           color:var(---pink);
 }  
