@@ -5,9 +5,10 @@
 .A{
 border: 4px #d4a589 ;
 width: 600px;
-height: 580px;
+height: 600px;
 border-radius: 15px;
 margin-top: 20px;
+margin-left: 20px;
 background-color: rgb(247, 228, 228);
 }
 img{
@@ -18,8 +19,9 @@ margin-top: 10px;
 } 
 .B{
 display:flex;
-margin-left: 15px;
 margin-bottom: 30px;
+position: fixed;
+ left: 0; right: 0; 
 }
 header{
 position: fixed;
