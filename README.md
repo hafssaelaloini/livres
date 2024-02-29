@@ -30,152 +30,152 @@ background: #888380;
 padding: 2rem 9%;
 padding-left: 30px;
 display: flex;
-/* align-items: center; */
-justify-content: space-between;
+align-items: center;  
+/* justify-content: space-between; */
 z-index: 1000;
 box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
-        }
-        :root{
-            ---pink:#fce7e7;
-        }
-        header .logo{
-            font-size: 3rem;
-          color: #d4a589;
-            font-weight: bolder;
-        }
-        .btn  {
-            display:block;
-            margin-top: 2rem;
-            border-radius: 5rem;
-            background:#07064d;
-            color: #eee;
-            padding: 1ram 4rem;
-            cursor: pointer;
-            font-size: 2rem;
-            margin:10px;
-            padding-left: 20px
-        }
+}
+:root{
+---pink:#fce7e7;
+}
+header .logo{
+font-size: 3rem;
+color: #d4a589;
+font-weight: bolder;
+}
+.btn  {
+display:block;
+margin-top: 2rem;
+border-radius: 5rem;
+background:#07064d;
+color: #eee;
+padding: 1ram 4rem;
+cursor: pointer;
+font-size: 2rem;
+margin:10px;
+padding-left: 20px
+}
 header .fa-bars {
-            font-size: 3rem;
-            color: #d4a589;
-            border-radius: .5rem ;
-            padding: 0.5rem  1.5rem;
-            cursor: pointer;
-            border: 0.1rem solid rgba(0,0,0,3);
-            display: none;
-        }          
-        header .icons a:hover  {
-            color: var(---pink);
-        }
-        header .icons a{
-            font-size: 2.5rem;
-            color:#d4a589;
-            margin-left: 1.5rem;
-        }
-     header .navbar a:hover{
-            color: var(---pink);
-        }
-        .btn:hover{
-            background: var(---pink);
-        }
+font-size: 3rem;
+color: #d4a589;
+border-radius: .5rem ;
+padding: 0.5rem  1.5rem;
+cursor: pointer;
+border: 0.1rem solid rgba(0,0,0,3);
+display: none;
+}          
+header .icons a:hover  {
+color: var(---pink);
+}
+header .icons a{
+font-size: 2.5rem;
+color:#d4a589;
+margin-left: 1.5rem;
+}
+header .navbar a:hover{
+color: var(---pink);
+}
+.btn:hover{
+background: var(---pink);
+}
 header #toggler{
-            display: none;
-        }    
-        header .logo span{
-            color: var(---pink);
-        }    
-        header .navbar a{
-            font-size: 2rem;
-            padding: 0 1.5rem;
-            color:#d4a589;
-        }
-        .bouton {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color:#d4a589;
-      border: none;
-      border-radius: 10px;
-      color: rgb(24, 23, 23);
-      font-size: 20px;
-      cursor: pointer;
-      transition: transform 0.3s;
-      width: 250px;
-      height: 70px;
-      transform:translateX(1.1rem);
-    }
-    p{
-            margin-left: 85px;
-            font: 2em  xx-large;
-            font-style:unset;
-        }
-        html{
-            font-size: 62.5%;
-            scroll-behavior: smooth;
-            scroll-padding-top: 2rem;
-            overflow-x: hidden;
-        }
-  header .logo{
-            font-size: 3rem;
-          color: #d4a589;
-            font-weight: bolder;
-        }
-        @media (max-width:650px){
-            html{
-                font-size: 70%;
-            }
-        }  
-    @media (max-width:999px){
-            html{
-                font-size: 70%;
-            }
-            header{
-                padding:2rem ;
-                margin-bottom: 15px;
-            }
-        }
-     @media (max-width:768px){  
-        header .fa-bars{
-          display: block;
-        }
-         header .navbar{
-            position: absolute;
-            top: 100%; left: 0; right: 0;
-            background: #07df73;
-            border-top: .1res solid rgba(0,0,0,.1);
-            clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
-        }
-    header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
-    }
-       header .navbar a{
-           margin: 1.5rem; 
-           padding: 1.5rem;
-           background: blue;
-           border: .1rem solid rgba(0,0,0,.1);
-           display: block; 
-        }
-    }
-    per{
-        margin-left: 40px;
-        font-display:initial;
-        color: #07064d;
-        font-size: medium;
-    }
-    h3{
-        padding-bottom: 20px;
-        margin-left:5px;
-    }
-       .boutonn{
-                margin-left: 150px;
-                border-radius: 30px;
-                width: 100px;
-                background-color: rgb(159, 189, 245);
-                   }
-            .boutonn:active{
-                background-color: rgba(13, 19, 105, 0.74);
-                outline: none;            
-            }
- .h2{
+display: none;
+}    
+header .logo span{
+color: var(---pink);
+}    
+header .navbar a{
+font-size: 2rem;
+padding: 0 1.5rem;
+color:#d4a589;
+}
+.bouton {
+display: inline-block;
+padding: 10px 20px;
+background-color:#d4a589;
+border: none;
+border-radius: 10px;
+color: rgb(24, 23, 23);
+font-size: 20px;
+cursor: pointer;
+transition: transform 0.3s;
+width: 220px;
+height: 70px;
+transform:translateX(1.1rem);
+}
+p{
+margin-left: 85px;
+font: 3em  xx-large;
+font-style:unset;
+}
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 2rem;
+overflow-x: hidden;
+}
+header .logo{
+font-size: 3rem;
+color: #d4a589;
+font-weight: bolder;
+}
+@media (max-width:650px){
+html{
+font-size: 70%;
+}
+}  
+@media (max-width:999px){
+html{
+font-size: 70%;
+}
+header{
+padding:2rem ;
+margin-bottom: 15px;
+}
+}
+@media (max-width:768px){  
+header .fa-bars{
+display: block;
+}
+header .navbar{
+position: absolute;
+top: 100%; left: 0; right: 0;
+background: #07df73;
+border-top: .1res solid rgba(0,0,0,.1);
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header #toggler:checked ~ .navbar{
+clip-path: polygon(0 0, 100% 0, 100% 0,0 0); 
+}
+header .navbar a{
+margin: 1.5rem; 
+padding: 1.5rem;
+background: blue;
+border: .1rem solid rgba(0,0,0,.1);
+display: block; 
+}
+}
+per{
+margin-left: 40px;
+font-display:initial;
+color: #07064d;
+font-size: medium;
+}
+h3{
+padding-bottom: 20px;
+margin-left:5px;
+}
+.boutonn{
+margin-left: 150px;
+border-radius: 30px;
+width: 100px;
+background-color: rgb(159, 189, 245);
+}
+.boutonn:active{
+background-color: rgba(13, 19, 105, 0.74);
+outline: none;            
+}
+.h2{
 color: rgb(63, 74, 168);
 margin-left:5px;
 margin-top: 5px;
