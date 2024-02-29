@@ -23,8 +23,6 @@ margin-top: 10px;
 display:flex;
 margin-left: 35px;
 margin-bottom: 30px;
-white:500px;
-height:600px;
 }
 header{
 position: fixed;
@@ -116,15 +114,6 @@ header #toggler{
             scroll-behavior: smooth;
             scroll-padding-top: 6rem;
             overflow-x: hidden;
-        }
-*{
-            margin: 0; padding: 0;
-            box-sizing: border-box;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            outline: none; border: none;
-            text-decoration: none;
-            text-transform: capitalize;
-            transition: .2s linear;
         }
   header .logo{
             font-size: 3rem;
