@@ -5,8 +5,7 @@
 .A{
 border: 4px #d4a589 ;
 width: 500px;
-align-items: center;
-height: 630px;
+height: 530px;
 border-radius: 15px;
 margin-left: 5px;
 margin-right: 5px;
@@ -21,7 +20,7 @@ margin-top: 10px;
 } 
 .B{
 display:flex;
-margin-left: 35px;
+margin-left: 5px;
 margin-bottom: 30px;
 }
 header{
