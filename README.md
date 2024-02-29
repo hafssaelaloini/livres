@@ -110,8 +110,6 @@ p{
       font: 2em  xx-large;
       font-style:unset;
 }
-
-padding: 2rem 9%;
 html{
          font-size: 62.5%;
         scroll-behavior: smooth;
