@@ -18,10 +18,10 @@ margin-left:5px;
 margin-top: 10px;
 } 
 .B{
-display:inline-block;/**/
+display:flex;
 margin-bottom: 30px;
-margin-left: 0px;
-margin-rigth: 0px;
+left: 0px;
+rigth: 0px;
 }
 header{
 position: fixed;
@@ -112,7 +112,7 @@ html{
 font-size: 62.5%;
 scroll-behavior: smooth;
 scroll-padding-top: 2rem;
-/*overflow-x: hidden;*/
+overflow-x: hidden;
 }
 header .logo{
 font-size: 3rem;
@@ -124,7 +124,7 @@ html{
 font-size: 70%;
 }
 }  
-@media (max-width:800px){/**/
+@media (max-width:700px){/**/
 html{
 font-size: 70%;
 }
